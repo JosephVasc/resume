@@ -17,6 +17,15 @@ export const projects = [
     visit: 'https://github.com/JosephVasc/YoutubeShorts',
     id: 0,
   },
+  {
+    title: 'node-rest-api',
+    description: 'A REST api built in js, node, and express.',
+      image: './images/3.png',
+      tags: ['Javascript, Node, Express, MongoDB'],
+    source: 'https://github.com/JosephVasc/node-rest-api',
+    visit: 'https://github.com/JosephVasc/node-rest-api',
+    id: 0,
+  },
 ];
 
 export const TimeLineData = [
