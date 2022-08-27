@@ -9,8 +9,6 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>This was built following this JS Mastery tutorial on YouTube</LinkTitle>
-          <LinkItem href="href:https://www.youtube.com/watch?v=OPaLnMw2i_0&t=1s">JS MASTERY</LinkItem>
           <LinkTitle>Call or Text</LinkTitle>
           <LinkItem href="tel:781-243-1009">781-243-1009</LinkItem>
         </LinkColumn>
