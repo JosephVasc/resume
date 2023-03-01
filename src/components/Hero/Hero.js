@@ -4,20 +4,20 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
-  <>
+export default function Hero(props){ 
+  return (
+    <>
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
           Joseph Vasconcelos
         </SectionTitle>
         <SectionText>
-          I am a software developer with a passion for building cool stuff.
+          I'm a software engineer with a passion for building web applications. Click below to learn more about me!
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
     </Section>
   </>
-);
-
-export default Hero;
+  )
+  }
