@@ -29,8 +29,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2016, text: 'Started my journey into coding', },
   { year: 2019, text: 'Graduated with associates degree in computer science', },
   { year: 2021, text: 'Began working as an a DevOps Engineer', },
   { year: 2021, text: 'Earned a Bachelors Degree in Computer Science From Bridgewater State University', },
+  { year: 2022, text: 'Began working as a Software Engineer at Data Ductus', },
 ];
